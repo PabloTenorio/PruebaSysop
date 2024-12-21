@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+}
+
+.table{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#empleados{
+    width: 100%;
+}
+
+.NewUser{
+    background-color: #0ca772;
+    color: #fff;
+    padding: 1vh;
+    font-size: 2vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.InactiveUser{
+    background-color: #a72020;
+    color: #fff;
+    padding: 1vh;
+    font-size: 2vh;
+    border-radius: 10px;
+    border: none;
+    margin-left: 1vw;
+}
+
+body {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.custom-card-bg {
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    width: 80%;
+}
+
+.profile-picture img {
+    width: 150px; /* Asegúrate de que el ancho sea el mismo que el alto */
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.titulo{
+    display: flex; 
+    justify-content: center;
+}
+
+.logout{
+    display: flex; 
+    justify-content: end;
+}
+
+.error-message{
+    background-color: red;
+    color: #fff;
+    width: 60%;
+    margin-top: 1vh;
+    border-radius: 5px;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .custom-card-bg {
+        background: rgba(255,255,255,0.9);
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .logout{
+        display: flex; 
+        justify-content: center;
+    }
+
+    .d-md-table-cell {
+        display: none !important;
+    }
+
+    .volver{
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 2vh;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .custom-card-bg {
+        background: rgba(255,255,255,0.9);
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .logout{
+        display: flex; 
+        justify-content: center;
+    }
+}
+@media (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+}

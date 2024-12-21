@@ -1,0 +1,23 @@
+En este archivo hay 4 cuentas las cuales comprueban todos los puestos, vistas y permisos cada una
+con su respectivo rol.
+
+
+Admin
+Pablo Jair Tenorio Escalón 
+Correo: pablo.jair03.adm@sysop.com
+Contraseña: BH7wFp4yH7Pj
+
+Empleado
+Prueba Sysop 1
+Correo: prueba.103.emp@sysop.com
+Contraseña: MTo6kGIKYIiE
+
+Ejecutivo de ventas
+Prueba Sysop 2
+Correo: prueba.203.exe@sysop.com
+Contraseña: ifW30yVjVRwc
+
+Cuenta inactiva para probar lo que pasa al iniciar sesión desde un perfil desactivado
+Prueba Sysop Inactive
+Correo: prueba.inactive15.emp@sysop.com
+Contraseña: en8tkckdNa4v
